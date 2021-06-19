@@ -52,3 +52,15 @@ body {
   .bloco-info__destaque {
     color: #DF0209;
     font: italic normal normal 26px/35px FoundryMonoline-ExBdIta ☞; }
+
+.footer {
+  text-align: center;
+  padding: 20px 20px 40px 20px; }
+  .footer__conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px; }
+  .footer__text {
+    font: normal normal normal 12px/16px Segoe UI;
+    color: #707070; }

@@ -4,6 +4,8 @@
 // @font-face {font-family: "FoundryMonoline-MedIta"; src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot"); src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.svg#FoundryMonoline-MedIta") format("svg"); }
 // @import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta);
 // @font-face {font-family: "FoundryMonoline-ExBdIta"; src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot"); src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff") format("woff"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.svg#FoundryMonoline-ExBdIta") format("svg"); }
+// @import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
+// @font-face {font-family: "Segoe UI"; src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot"); src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff") format("woff"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.svg#Segoe UI") format("svg"); }
 
 body {
   background-color: #FFFFFF;
@@ -88,6 +90,27 @@ body {
   &__destaque {
     color: #DF0209;
     font: italic normal normal 26px/35px FoundryMonoline-ExBdIta ☞;
+  }
+
+}
+
+.footer {
+
+  text-align: center;
+  padding: 20px 20px 40px 20px;
+  
+  &__conteudo {
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;;
+
+  }
+
+  &__text {
+    font: normal normal normal 12px/16px Segoe UI;
+    color: #707070;
   }
 
 }
