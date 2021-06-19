@@ -6,6 +6,9 @@
 // @font-face {font-family: "FoundryMonoline-ExBdIta"; src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot"); src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff") format("woff"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.svg#FoundryMonoline-ExBdIta") format("svg"); }
 // @import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
 // @font-face {font-family: "Segoe UI"; src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot"); src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff") format("woff"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.svg#Segoe UI") format("svg"); }
+// @import url(//db.onlinewebfonts.com/c/244c8b44cda75c9742dc43e0c324bb8c?family=FoundryMonoline-Medium);
+// @font-face {font-family: "FoundryMonoline-Medium"; src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot"); src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff") format("woff"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.svg#FoundryMonoline-Medium") format("svg"); }
+
 
 body {
   background-color: #FFFFFF;
@@ -72,14 +75,19 @@ body {
   font-size: 14px;
   margin: 30px 0;
 
-  &--borda-vermelha {
+  &--contatos {
     border: 1px solid #DF0209;
     border-radius: 5px;
+    background: #FFFFFF;
+    padding: 15px;
+    width: 270px;
   }
 
-  // &__icon {
-    
-  // }
+  &--especial {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
   &__titulo {
     font: italic normal normal 16px/21px FoundryMonoline-MedIta ☞;
@@ -87,10 +95,40 @@ body {
     letter-spacing: -0.7px;
   }
 
-  &__destaque {
+  &__telefone {
     color: #DF0209;
     font: italic normal normal 26px/35px FoundryMonoline-ExBdIta ☞;
   }
+
+  &__icon {
+    width: 27px;
+    height: 39px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font: normal normal normal 14px/19px FoundryMonoline ☞;
+    color: #000000;
+    text-align: left;
+  }
+
+  &__destaque {
+    color: #DF0209;
+    font-size: 26px;
+  }  
+
+  
+
+}
+
+.sessao-contatos {
+
+  background-color: #EEEEEE;
+  padding: 10px 35px;
 
 }
 
@@ -98,7 +136,7 @@ body {
 
   text-align: center;
   padding: 20px 20px 40px 20px;
-  
+
   &__conteudo {
     
     display: flex;

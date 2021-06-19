@@ -42,16 +42,40 @@ body {
   align-items: center;
   font-size: 14px;
   margin: 30px 0; }
-  .bloco-info--borda-vermelha {
+  .bloco-info--contatos {
     border: 1px solid #DF0209;
-    border-radius: 5px; }
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding: 15px;
+    width: 270px; }
+  .bloco-info--especial {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
   .bloco-info__titulo {
     font: italic normal normal 16px/21px FoundryMonoline-MedIta ☞;
     color: #727B7A;
     letter-spacing: -0.7px; }
-  .bloco-info__destaque {
+  .bloco-info__telefone {
     color: #DF0209;
     font: italic normal normal 26px/35px FoundryMonoline-ExBdIta ☞; }
+  .bloco-info__icon {
+    width: 27px;
+    height: 39px; }
+  .bloco-info__container {
+    display: flex;
+    flex-direction: column; }
+  .bloco-info__text {
+    font: normal normal normal 14px/19px FoundryMonoline ☞;
+    color: #000000;
+    text-align: left; }
+  .bloco-info__destaque {
+    color: #DF0209;
+    font-size: 26px; }
+
+.sessao-contatos {
+  background-color: #EEEEEE;
+  padding: 10px 35px; }
 
 .footer {
   text-align: center;
