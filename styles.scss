@@ -1,3 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/244c8b44cda75c9742dc43e0c324bb8c?family=FoundryMonoline-Medium);
+@font-face {font-family: "FoundryMonoline-Medium"; src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot"); src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff") format("woff"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.svg#FoundryMonoline-Medium") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta);
+@font-face {font-family: "FoundryMonoline-MedIta"; src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot"); src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.svg#FoundryMonoline-MedIta") format("svg"); }
+@import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta);
+@font-face {font-family: "FoundryMonoline-ExBdIta"; src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot"); src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff") format("woff"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.svg#FoundryMonoline-ExBdIta") format("svg"); }
+
 body {
   background-color: #FFFFFF;
 }
@@ -5,10 +12,10 @@ body {
 .nav {
 
   display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #EEEEEE;
-    padding: 10px 0;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EEEEEE;
+  padding: 10px 0;
 
   &__link {
     text-decoration: none;
@@ -23,6 +30,46 @@ body {
     display: none;
   }
 
+
+}
+
+.header {
+  margin: 30px;
+
+  &__div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.bloco-info {
+
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  margin: 30px 0;
+
+  &--borda-vermelha {
+    border: 1px solid #DF0209;
+    border-radius: 5px;
+  }
+
+  // &__icon {
+    
+  // }
+
+  &__titulo {
+    font: italic normal normal 16px/21px FoundryMonoline-MedIta ☞;
+    color: #727B7A;
+    letter-spacing: -0.7px;
+  }
+
+  &__destaque {
+    color: #DF0209;
+    font: italic normal normal 26px/35px FoundryMonoline-ExBdIta ☞;
+  }
 
 }
 
