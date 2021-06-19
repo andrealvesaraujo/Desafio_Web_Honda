@@ -1,3 +1,35 @@
-body { 
-  color: blue;
+body {
+  background-color: #FFFFFF;
+}
+
+.nav {
+
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EEEEEE;
+    padding: 10px 0;
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 25px;
+  }
+
+  &__text {
+    display: none;
+  }
+
+
+}
+
+@media (min-width: 768px) {
+  
+  // body {
+  //     background-color: red;
+  // }
+
 }

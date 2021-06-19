@@ -1,2 +1,16 @@
 body {
-  color: blue; }
+  background-color: #FFFFFF; }
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #EEEEEE;
+  padding: 10px 0; }
+  .nav__link {
+    text-decoration: none; }
+  .nav__icon {
+    width: 30px;
+    height: 25px; }
+  .nav__text {
+    display: none; }
