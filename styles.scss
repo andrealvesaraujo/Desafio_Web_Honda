@@ -80,6 +80,7 @@ body {
     border-radius: 5px;
     background: #FFFFFF;
     padding: 15px;
+    margin: 5px 0;
     width: 270px;
   }
 
@@ -129,7 +130,29 @@ body {
 
   background-color: #EEEEEE;
   padding: 10px 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
+  &__text {
+    font: italic normal normal 18px/24px FoundryMonoline-ExBdIta ☞;
+    margin-bottom: 10px;
+  }
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #C5C5C5;
+    border-radius: 100%;
+    padding: 10px;
+  }
+
+}
+
+.sessao-contatos .sessao-contatos__icon {
+  margin-right: 10px;
 }
 
 .footer {
