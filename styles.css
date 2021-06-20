@@ -129,6 +129,34 @@ body {
     font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
     color: #FFFFFF; }
 
+.section-lancamentos {
+  text-align: center;
+  padding: 30px; }
+  .section-lancamentos__header {
+    font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
+    color: #000000; }
+  .section-lancamentos__text {
+    font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
+    color: #000000; }
+  .section-lancamentos__select {
+    border: 1px solid #D5D5D5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .section-lancamentos__icone {
+    transform: rotate(90deg);
+    color: #000000; }
+  .section-lancamentos__button {
+    font: normal normal 300 14px/24px Roboto;
+    color: #000000;
+    border: 1px solid #D5D5D5;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #fff; }
+
 .section-contatos {
   background-color: #EEEEEE;
   padding: 10px 35px;
