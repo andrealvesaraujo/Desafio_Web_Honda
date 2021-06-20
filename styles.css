@@ -30,10 +30,10 @@ body {
     justify-content: center; }
   .header__background {
     background: url("lib/img_mobile/Civic_EXL_2017_3_4_Lado_A_Preto_72dpi.png") 0% 0% no-repeat padding-box;
-    background-size: cover;
-    width: 100%;
+    width: 22em;
     height: 200px;
-    background-position: center; }
+    background-position: center;
+    margin-bottom: 20px; }
 
 .bloco-info {
   display: flex;
@@ -74,17 +74,42 @@ body {
     color: #DF0209;
     font-size: 26px; }
 
-.sessao-contatos {
+.section-form-test-drive {
   background-color: #EEEEEE;
   padding: 10px 35px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .sessao-contatos__text {
+
+.section-emocao-dirigir {
+  padding: 20px; }
+  .section-emocao-dirigir__titulo {
+    text-align: center;
+    font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
+    margin-bottom: 15px; }
+  .section-emocao-dirigir__imagem {
+    background: url("lib/img_mobile/juntosi.png") 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    margin-bottom: 30px; }
+  .section-emocao-dirigir__descricao {
+    text-align: center;
+    font: normal normal normal 18px/24px FoundryMonoline-Regular ☞;
+    margin-bottom: 20px; }
+
+.section-contatos {
+  background-color: #EEEEEE;
+  padding: 10px 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .section-contatos__text {
     font: italic normal normal 18px/24px FoundryMonoline-ExBdIta ☞;
     margin-bottom: 10px; }
-  .sessao-contatos__icon {
+  .section-contatos__icon {
     width: 30px;
     height: 30px;
     color: #FFFFFF;
@@ -92,7 +117,7 @@ body {
     border-radius: 100%;
     padding: 10px; }
 
-.sessao-contatos .sessao-contatos__icon {
+.section-contatos .section-contatos__icon {
   margin-right: 10px; }
 
 .footer {

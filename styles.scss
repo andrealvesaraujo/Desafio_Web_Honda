@@ -6,9 +6,8 @@
 // @font-face {font-family: "FoundryMonoline-ExBdIta"; src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot"); src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff") format("woff"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.svg#FoundryMonoline-ExBdIta") format("svg"); }
 // @import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
 // @font-face {font-family: "Segoe UI"; src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot"); src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff") format("woff"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.svg#Segoe UI") format("svg"); }
-// @import url(//db.onlinewebfonts.com/c/244c8b44cda75c9742dc43e0c324bb8c?family=FoundryMonoline-Medium);
-// @font-face {font-family: "FoundryMonoline-Medium"; src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot"); src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff") format("woff"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.svg#FoundryMonoline-Medium") format("svg"); }
-
+// @import url(http://db.onlinewebfonts.com/c/c6a54e3881bf08530bc0719b35f67565?family=FoundryMonoline-Regular);
+// @font-face {font-family: "FoundryMonoline-Regular"; src: url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.eot"); src: url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.svg#FoundryMonoline-Regular") format("svg"); }
 
 body {
   background-color: #FFFFFF;
@@ -59,10 +58,10 @@ body {
 
   &__background {
     background: url('lib/img_mobile/Civic_EXL_2017_3_4_Lado_A_Preto_72dpi.png') 0% 0% no-repeat padding-box;
-    background-size: cover;
-    width: 100%;
+    width: 22em;
     height: 200px;
     background-position: center;
+    margin-bottom: 20px;
   }
 }
 
@@ -126,7 +125,44 @@ body {
 
 }
 
-.sessao-contatos {
+.section-form-test-drive {
+  background-color: #EEEEEE;
+  padding: 10px 35px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-emocao-dirigir {
+
+  padding: 20px;
+
+  &__titulo {
+
+    text-align: center;
+    font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
+    margin-bottom: 15px;
+
+  }
+
+  &__imagem {
+    background: url('lib/img_mobile/juntosi.png') 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    margin-bottom: 30px;
+  }
+
+  &__descricao {
+    text-align: center;
+    font: normal normal normal 18px/24px FoundryMonoline-Regular ☞;
+    margin-bottom: 20px;
+  }
+
+}
+
+.section-contatos {
 
   background-color: #EEEEEE;
   padding: 10px 35px;
@@ -151,7 +187,7 @@ body {
 
 }
 
-.sessao-contatos .sessao-contatos__icon {
+.section-contatos .section-contatos__icon {
   margin-right: 10px;
 }
 
