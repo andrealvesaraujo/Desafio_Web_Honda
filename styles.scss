@@ -4,7 +4,7 @@
 // @import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta);
 // @import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
 // @import url(http://db.onlinewebfonts.com/c/c6a54e3881bf08530bc0719b35f67565?family=FoundryMonoline-Regular);
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
   background-color: #FFFFFF;
@@ -384,6 +384,8 @@ body {
 
   text-align: center;
   padding: 30px;
+  display: flex;
+  justify-content: center;
 
   &__header {
     font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
@@ -492,7 +494,7 @@ body {
 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1023.99px) {
   
   body {
      display: none;
