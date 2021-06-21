@@ -129,6 +129,67 @@ body {
     font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
     color: #FFFFFF; }
 
+.section-carousel {
+  text-align: center;
+  padding: 20px; }
+  .section-carousel__header {
+    font: italic normal normal 20px/27px FoundryMonoline-ExBdIta ☞;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  .section-carousel__text {
+    font: normal normal 300 14px/19px FoundryMonoline ☞;
+    color: #000; }
+
+.my-carousel__before {
+  transform: rotate(-180deg);
+  margin-left: 5px; }
+
+.my-carousel__after {
+  margin-right: 5px; }
+
+.my-carousel__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.my-carousel__container-image {
+  border: 1px solid #D5D5D5;
+  padding: 5px; }
+
+.my-carousel__background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(lib/img_mobile/07-DIRECAO_ELETRICA.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 323px;
+  height: 223px; }
+
+.my-carousel__icon {
+  background: #D5D5D5;
+  border-radius: 100%;
+  opacity: 0.5;
+  width: 20px;
+  height: 20px;
+  padding: 10px; }
+
+.my-carousel__container-item {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px; }
+
+.my-carousel__item {
+  width: 15px;
+  height: 15px;
+  background: #D5D5D5 0% 0% no-repeat padding-box;
+  border-radius: 100%;
+  margin: 0 5px; }
+
+.my-carousel__item--active {
+  background-color: #808080; }
+
 .section-lancamentos {
   text-align: center;
   padding: 30px; }
