@@ -274,6 +274,14 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative; }
+  @media (min-width: 1365.99px) {
+    .section-preparar-novo {
+      background: url("lib/img_desktop/Grupo 74@2x.png") 0% 0% no-repeat;
+      margin: 20px 0;
+      padding: 0;
+      width: 100%;
+      height: 842px;
+      background-size: cover; } }
   .section-preparar-novo__gradiente {
     transform: matrix(-1, 0, 0, -1, 0, 0);
     background: transparent linear-gradient(180deg, #000000 0%, #00000000 100%) 0% 0% no-repeat padding-box;
@@ -281,12 +289,18 @@ body {
     height: 245px;
     position: absolute;
     bottom: 0; }
+    @media (min-width: 1365.99px) {
+      .section-preparar-novo__gradiente {
+        display: none; } }
   .section-preparar-novo__container {
     margin-bottom: 30px;
     padding: 0 20px;
     text-align: center;
     position: absolute;
     bottom: 0; }
+    @media (min-width: 1365.99px) {
+      .section-preparar-novo__container {
+        display: none; } }
   .section-preparar-novo__header {
     font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
     color: #FFFFFF; }
@@ -297,6 +311,9 @@ body {
 .section-carousel {
   text-align: center;
   padding: 20px; }
+  @media (min-width: 1365.99px) {
+    .section-carousel {
+      display: none; } }
   .section-carousel__header {
     font: italic normal normal 20px/27px FoundryMonoline-ExBdIta ☞;
     color: #000;
