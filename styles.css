@@ -1,4 +1,9 @@
 @charset "UTF-8";
+@import url(http://db.onlinewebfonts.com/c/c6a54e3881bf08530bc0719b35f67565?family=FoundryMonoline-Regular);
+@import url(http://db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta);
+@import url(http://db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta);
+@import url(http://db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 body {
   background-color: #FFFFFF; }
 
@@ -35,7 +40,7 @@ body {
     @media (min-width: 1365.99px) {
       .nav__text {
         display: inline;
-        font: normal normal normal 12px/16px FoundryMonoline ☞;
+        font: normal normal normal 12px/16px "FoundryMonoline";
         color: #707070; } }
 
 .header {
@@ -105,12 +110,12 @@ body {
       .bloco-info--especial {
         margin: 10px 10px 10px 0px; } }
   .bloco-info__titulo {
-    font: italic normal normal 16px/21px FoundryMonoline-MedIta ☞;
+    font: italic normal normal 16px/21px "FoundryMonoline-MedIta";
     color: #727B7A;
     letter-spacing: -0.7px; }
   .bloco-info__telefone {
     color: #DF0209;
-    font: italic normal normal 26px/35px FoundryMonoline-ExBdIta ☞; }
+    font: italic normal normal 26px/35px "FoundryMonoline-ExBdIta"; }
   .bloco-info__icon {
     width: 27px;
     height: 39px; }
@@ -118,7 +123,7 @@ body {
     display: flex;
     flex-direction: column; }
   .bloco-info__text {
-    font: normal normal normal 14px/19px FoundryMonoline ☞;
+    font: normal normal normal 14px/19px "FoundryMonoline";
     color: #000000;
     text-align: left; }
   .bloco-info__destaque {
@@ -157,9 +162,9 @@ body {
     display: flex;
     flex-direction: column; }
   .form-component__text {
-    font: normal normal medium 14px/19px FoundryMonoline ☞; }
+    font: normal normal medium 14px/19px "FoundryMonoline"; }
   .form-component__destaque {
-    font: normal normal normal 21px/19px FoundryMonoline ☞;
+    font: normal normal normal 21px/19px "FoundryMonoline";
     color: #DF0209; }
   .form-component__container-input {
     border-radius: 4px;
@@ -219,7 +224,7 @@ body {
       padding: 0 100px; } }
   .section-emocao-dirigir__titulo {
     text-align: center;
-    font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
+    font: italic normal normal 24px/32px "FoundryMonoline-ExBdIta";
     margin-bottom: 15px; }
     @media (min-width: 1365.99px) {
       .section-emocao-dirigir__titulo {
@@ -257,7 +262,7 @@ body {
         margin-bottom: 0; } }
   .section-emocao-dirigir__descricao {
     text-align: center;
-    font: normal normal normal 18px/24px FoundryMonoline-Regular ☞;
+    font: normal normal normal 18px/24px "FoundryMonoline-Regular";
     margin-bottom: 20px; }
     .section-emocao-dirigir__descricao br {
       display: none; }
@@ -305,10 +310,10 @@ body {
       .section-preparar-novo__container {
         display: none; } }
   .section-preparar-novo__header {
-    font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
+    font: italic normal normal 24px/32px "FoundryMonoline-ExBdIta";
     color: #FFFFFF; }
   .section-preparar-novo__text {
-    font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
+    font: normal normal normal 16px/21px "FoundryMonoline-Regular";
     color: #FFFFFF; }
 
 .section-carousel {
@@ -318,12 +323,12 @@ body {
     .section-carousel {
       display: none; } }
   .section-carousel__header {
-    font: italic normal normal 20px/27px FoundryMonoline-ExBdIta ☞;
+    font: italic normal normal 20px/27px "FoundryMonoline-ExBdIta";
     color: #000;
     margin-top: 20px;
     margin-bottom: 10px; }
   .section-carousel__text {
-    font: normal normal 300 14px/19px FoundryMonoline ☞;
+    font: normal normal 300 14px/19px "FoundryMonoline";
     color: #000; }
 
 .my-carousel__before {
@@ -388,14 +393,14 @@ body {
       text-align: left;
       justify-content: flex-start; } }
   .section-lancamentos__header {
-    font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
+    font: italic normal normal 24px/32px "FoundryMonoline-ExBdIta";
     color: #000000; }
     @media (min-width: 1365.99px) {
       .section-lancamentos__header {
         font-size: 34px;
         line-height: 46px; } }
   .section-lancamentos__text {
-    font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
+    font: normal normal normal 16px/21px "FoundryMonoline-Regular";
     color: #000000; }
     @media (min-width: 1365.99px) {
       .section-lancamentos__text {
@@ -438,7 +443,7 @@ body {
     @media (min-width: 1365.99px) {
       .section-lancamentos__descricao {
         display: inline;
-        font: normal normal 300 14px/19px FoundryMonoline ☞;
+        font: normal normal 300 14px/19px "FoundryMonoline";
         color: #000000;
         text-align: center; } }
   .section-lancamentos__button {
@@ -472,7 +477,7 @@ body {
     margin-top: 20px;
     margin-bottom: 10px; }
   .section-contatos__text {
-    font: italic normal normal 18px/24px FoundryMonoline-ExBdIta ☞;
+    font: italic normal normal 18px/24px "FoundryMonoline-ExBdIta";
     margin-bottom: 10px; }
     .section-contatos__text br {
       display: inline; }
