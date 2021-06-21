@@ -40,22 +40,45 @@ body {
 
 .header {
   margin: 30px; }
+  @media (min-width: 1023.99px) {
+    .header {
+      margin: 0; } }
   .header__info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
+    @media (min-width: 1023.99px) {
+      .header__info {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 100px;
+        margin: 20px 0; } }
   .header__principal {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
+    @media (min-width: 1023.99px) {
+      .header__principal {
+        background: url("lib/img_desktop/Retângulo 1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 400px; } }
   .header__background {
     background: url("lib/img_mobile/Civic_EXL_2017_3_4_Lado_A_Preto_72dpi.png") 0% 0% no-repeat padding-box;
     width: 22em;
     height: 200px;
     background-position: center;
     margin-bottom: 20px; }
+    @media (min-width: 1023.99px) {
+      .header__background {
+        display: none; } }
+  @media (min-width: 1023.99px) {
+    .header__image {
+      display: none; } }
 
 .bloco-info {
   display: flex;
@@ -64,6 +87,9 @@ body {
   align-items: center;
   font-size: 14px;
   margin: 30px 0; }
+  @media (min-width: 1023.99px) {
+    .bloco-info {
+      margin: 0px 0; } }
   .bloco-info--contatos {
     border: 1px solid #DF0209;
     border-radius: 5px;
