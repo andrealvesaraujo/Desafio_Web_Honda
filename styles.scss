@@ -1,13 +1,10 @@
 // @import url(//db.onlinewebfonts.com/c/244c8b44cda75c9742dc43e0c324bb8c?family=FoundryMonoline-Medium);
 // @font-face {font-family: "FoundryMonoline-Medium"; src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot"); src: url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.woff") format("woff"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/244c8b44cda75c9742dc43e0c324bb8c.svg#FoundryMonoline-Medium") format("svg"); }
 // @import url(//db.onlinewebfonts.com/c/5ab00d2b042c8a215c4fc486c4826b90?family=FoundryMonoline-MedIta);
-// @font-face {font-family: "FoundryMonoline-MedIta"; src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot"); src: url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.woff") format("woff"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5ab00d2b042c8a215c4fc486c4826b90.svg#FoundryMonoline-MedIta") format("svg"); }
 // @import url(//db.onlinewebfonts.com/c/91c8bf05e5746c57c98fd7df8c556dd4?family=FoundryMonoline-ExBdIta);
-// @font-face {font-family: "FoundryMonoline-ExBdIta"; src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot"); src: url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.woff") format("woff"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/91c8bf05e5746c57c98fd7df8c556dd4.svg#FoundryMonoline-ExBdIta") format("svg"); }
 // @import url(//db.onlinewebfonts.com/c/623c7118249e082fe87a78e08506cb4b?family=Segoe+UI);
-// @font-face {font-family: "Segoe UI"; src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot"); src: url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.woff") format("woff"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/623c7118249e082fe87a78e08506cb4b.svg#Segoe UI") format("svg"); }
 // @import url(http://db.onlinewebfonts.com/c/c6a54e3881bf08530bc0719b35f67565?family=FoundryMonoline-Regular);
-// @font-face {font-family: "FoundryMonoline-Regular"; src: url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.eot"); src: url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6a54e3881bf08530bc0719b35f67565.svg#FoundryMonoline-Regular") format("svg"); }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
   background-color: #FFFFFF;
@@ -119,19 +116,117 @@ body {
   &__destaque {
     color: #DF0209;
     font-size: 26px;
-  }  
-
-  
+  }   
 
 }
 
-.section-form-test-drive {
+.section-test-drive {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-component {
+
   background-color: #EEEEEE;
-  padding: 10px 35px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 0px 5px #00000029;
+  border-radius: 4px;
+  width: 290px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+  }
+
+  &__icon {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+  }
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font: normal normal medium 14px/19px FoundryMonoline ☞;
+  }
+
+  &__destaque {
+    font: normal normal normal 21px/19px FoundryMonoline ☞;
+    color: #DF0209;
+  }
+
+  &__container-input {
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;    
+  }
+
+  &__input-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  &__input {
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border: 0;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Roboto' ;
+    color: #00000061;   
+    width: 100%;
+    outline: none;
+
+    &::placeholder { 
+      font-size: 14px;
+      font-family: 'Roboto' ;
+      color: #00000061;   
+    }
+  }
+
+  &__container-select{
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;  
+  }
+
+  &__select {
+
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border: 0;
+    margin-left: 10px;
+    font: normal normal normal 14px 'Roboto';
+    color: #00000061;   
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    
+  }
+
+  &__button {
+    background-color: rgba(28, 183, 42, 1);
+    border:none;
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 1);
+    font: normal normal bold 14px/24px 'Roboto';
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+  }
+
 }
 
 .section-emocao-dirigir {
@@ -262,6 +357,7 @@ body {
     width: 20px;
     height: 20px;
     padding: 10px;
+    cursor: pointer;
   }
 
   &__container-item {
@@ -309,13 +405,14 @@ body {
     justify-content: space-around;
   }
 
-  &__icone {
+  &__icon {
     transform: rotate(90deg);
     color: #000000;
+    cursor: pointer;
   }
 
   &__button {
-    font: normal normal 300 14px/24px Roboto;
+    font: normal normal 300 14px/24px 'Roboto';
     color: #000000;
     border: 1px solid #D5D5D5;
     border-radius: 4px;

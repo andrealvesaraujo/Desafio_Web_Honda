@@ -43,39 +43,65 @@
             <img src="lib/img_mobile/Grupo 98.svg" alt="Civic 10 Geração">
         </div>
     </header>
-    <!-- <section class="section-form-test-drive">
-        <div>
-            <img src="" alt="">
-            <div>
-                <span>Solicitar um</span>
-                <span>CONTATO</span>
-            </div>
-        </div>      
-
-        <form action="#">
-
-            <input type="text" name="" placeholder="Nome">
-            <input type="email" name="" placeholder="E-mail">
-            <input type="tel" name="" placeholder="Telefone">
-            <input type="datetime" name="" placeholder="Escolha o horário">
-
-            <select name="opcoes-horarios">
-                <option value="0" selected>Escolha o horário</option>
-                <option value="1" >14:00</option>
-                <option value="2">16:00</option>
-                <option value="3">18:00</option>
-            </select>
-            
-            <select name="opcoes-unidades">
-                <option value="0" selected>Escolha a unidade</option>
-                <option value="">Rio de Janeiro</option>
-                <option value="">São Paulo</option>
-                <option value="">Curitiba</option>
-            </select>
-            <input type="submit" value="Agendar Teste Drive">
-
-        </form>         
-    </section> -->
+    <section class="section-test-drive">
+        <div class="form-component">
+            <div class="form-component__container">
+                <img class="form-component__icon" src="lib/icons/Grupo 45.svg" alt="Solicite um contato">
+                <div class="form-component__title">
+                    <span class="form-component__text">Solicitar um</span>
+                    <span class="form-component__destaque">CONTATO</span>
+                </div>
+            </div>      
+    
+            <form action="#">
+    
+                <div class="form-component__container-input">
+                    <label for="name">
+                        <img class="form-component__input-icon" src="lib/icons/Grupo 32.svg" alt="Nome">
+                    </label>
+                    <input class="form-component__input" autocomplete="off" type="text" name="name" id="name" placeholder="Nome">
+                </div>
+                <div class="form-component__container-input">
+                    <label for="email">
+                        <img class="form-component__input-icon" src="lib/icons/black-envelope-1.svg" alt="Nome">
+                    </label>
+                    <input class="form-component__input" autocomplete="off" type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="form-component__container-input">
+                    <label for="phone">
+                        <img class="form-component__input-icon" src="lib/icons/call-answer.svg" alt="Nome">
+                    </label>
+                    <input class="form-component__input" autocomplete="off" type="tel" name="phone" id="phone" placeholder="Telefone">
+                </div>
+                
+                <div class="form-component__container-select">     
+                    <label for="horarios">
+                        <img class="form-component__input-icon" src="lib/icons/clock-circular-outline.svg" alt="Escolha o horario">
+                    </label>               
+                    <select class="form-component__select" name="horarios" id="horarios">
+                        <option value="0" selected>Escolha o horário</option>
+                        <option value="1" >14:00</option>
+                        <option value="2">16:00</option>
+                        <option value="3">18:00</option>
+                    </select>
+                </div>
+                <div class="form-component__container-select">
+                    <label for="unidades">
+                        <img class="form-component__input-icon" src="lib/icons/facebook-placeholder-for-locate-places-on-maps-1.svg" alt="Escolha a unidade">
+                    </label>               
+                    <select class="form-component__select" name="unidades" id="unidades">
+                        <option value="0" selected>Escolha a unidade</option>
+                        <option value="">Rio de Janeiro</option>
+                        <option value="">São Paulo</option>
+                        <option value="">Curitiba</option>
+                    </select>
+                </div>               
+                
+                <input class="form-component__button" type="submit" value="AGENDAR TEST DRIVE">
+                
+            </form>   
+        </div>              
+    </section>
     <section class="section-emocao-dirigir">
         <div class="section-emocao-dirigir__titulo">
             A EMOÇÃO DE DIRIGIR LEVA VOCÊ MAIS LONGE
@@ -129,7 +155,7 @@
         <p class="section-lancamentos__text">Conheça os últimos grandes lançamentos da honda.</p>
         <div class="section-lancamentos__select">
             <img src="lib/img_mobile/accord.png" alt="Honda Acccord">
-            <img class="section-lancamentos__icone" src="lib/icons/keyboard-right-arrow-button-1.svg" alt="Icone Seta para baixo">
+            <img class="section-lancamentos__icon" src="lib/icons/keyboard-right-arrow-button-1.svg" alt="Icone Seta para baixo">
         </div>
         <div>
             <button class="section-lancamentos__button">CONHEÇA MAIS</button>
