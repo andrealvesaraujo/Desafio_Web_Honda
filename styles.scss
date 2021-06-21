@@ -194,11 +194,21 @@ body {
 
 }
 
-.section-test-drive {
+.section-form {
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (min-width: $breakpoint) {
+      
+      position: fixed;
+      top: 200px;
+      right: 30px;
+      z-index: 999;
+      padding: 0;
+
+    }
 }
 
 .form-component {
