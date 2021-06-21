@@ -380,12 +380,30 @@ body {
   padding: 30px;
   display: flex;
   justify-content: center; }
+  @media (min-width: 1365.99px) {
+    .section-lancamentos {
+      padding: 30px 100px;
+      text-align: left;
+      justify-content: flex-start; } }
   .section-lancamentos__header {
     font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
     color: #000000; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__header {
+        font-size: 34px;
+        line-height: 46px; } }
   .section-lancamentos__text {
     font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
     color: #000000; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__text {
+        font-size: 18px;
+        line-height: 24px; } }
+  .section-lancamentos__container {
+    display: block; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__container {
+        display: flex; } }
   .section-lancamentos__select {
     border: 1px solid #D5D5D5;
     margin-top: 10px;
@@ -394,17 +412,49 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__select {
+        flex-direction: column;
+        width: 270px;
+        height: 350px;
+        padding: 0px 10px;
+        margin-right: 30px; } }
+    .section-lancamentos__select--secundario {
+      display: none; }
+      @media (min-width: 1365.99px) {
+        .section-lancamentos__select--secundario {
+          display: flex; } }
   .section-lancamentos__icon {
     transform: rotate(90deg);
     color: #000000;
     cursor: pointer; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__icon {
+        display: none; } }
+  .section-lancamentos__descricao {
+    display: none; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__descricao {
+        display: inline;
+        font: normal normal 300 14px/19px FoundryMonoline ☞;
+        color: #000000;
+        text-align: center; } }
   .section-lancamentos__button {
     font: normal normal 300 14px/24px 'Roboto';
     color: #000000;
     border: 1px solid #D5D5D5;
     border-radius: 4px;
     width: 100%;
-    background-color: #fff; }
+    background-color: #fff;
+    padding: 5px 0; }
+    @media (min-width: 1365.99px) {
+      .section-lancamentos__button {
+        display: none; } }
+    .section-lancamentos__button--inside-select {
+      display: none; }
+      @media (min-width: 1365.99px) {
+        .section-lancamentos__button--inside-select {
+          display: block; } }
 
 .section-contatos {
   background-color: #EEEEEE;

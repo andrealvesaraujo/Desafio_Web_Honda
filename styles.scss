@@ -581,17 +581,53 @@ body {
   display: flex;
   justify-content: center;
 
+ 
+
+  @media (min-width: $breakpoint) {
+      
+    padding: 30px 100px;
+    text-align: left;
+    justify-content: flex-start;
+
+  }
+
   &__header {
     font: italic normal normal 24px/32px FoundryMonoline-ExBdIta ☞;
     color: #000000;
+
+    @media (min-width: $breakpoint) {
+      
+      font-size: 34px;
+      line-height: 46px;
+  
+    }
   }
 
   &__text {
     font: normal normal normal 16px/21px FoundryMonoline-Regular ☞;
     color: #000000;
+
+    @media (min-width: $breakpoint) {
+      
+      font-size: 18px;
+      line-height: 24px;
+  
+    }
+  }
+
+  &__container {
+    display: block;
+
+    @media (min-width: $breakpoint) {
+      
+      display: flex;
+  
+    }
+
   }
 
   &__select {
+
     border: 1px solid #D5D5D5;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -599,12 +635,58 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    @media (min-width: $breakpoint) {
+      
+      flex-direction: column;
+      width: 270px;
+      height: 350px;
+      padding: 0px 10px;
+      margin-right: 30px;
+  
+    }
+
+    &--secundario {
+      
+      display: none;
+
+
+      @media (min-width: $breakpoint) {
+      
+        display: flex;
+    
+      }
+
+    }
+
+    
   }
 
   &__icon {
     transform: rotate(90deg);
     color: #000000;
     cursor: pointer;
+
+    @media (min-width: $breakpoint) {
+      
+      display: none;
+  
+    }
+
+  }
+
+  &__descricao {
+    
+    display: none;
+
+    @media (min-width: $breakpoint) {
+      
+      display: inline;
+      font: normal normal 300 14px/19px FoundryMonoline ☞;
+      color: #000000;
+      text-align: center;
+  
+    }
   }
 
   &__button {
@@ -613,7 +695,27 @@ body {
     border: 1px solid #D5D5D5;
     border-radius: 4px;
     width: 100%;
-    background-color: #fff;
+    background-color: #fff;   
+    padding: 5px 0;
+
+    @media (min-width: $breakpoint) {
+      
+      display: none;
+  
+    }
+
+    &--inside-select {
+
+      display: none;
+
+      @media (min-width: $breakpoint) {
+      
+        display: block;
+    
+      }
+
+    }
+
   }
 
 }
